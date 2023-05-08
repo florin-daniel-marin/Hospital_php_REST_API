@@ -6,7 +6,7 @@ Acesta include tabelele in Mysql: **Doctors, Patients, Assistants si Treatments 
 #### fig 1. Functionalitate: Pagina Doctori
 ![alt text](https://github.com/florin-daniel-marin/Hospital_php_REST_API/blob/main/presentation_images/doctors.png)
 
-#### fig 3. Functionalitate: Pagina Asistenți
+#### fig 2. Functionalitate: Pagina Asistenți
 ![alt text](https://github.com/florin-daniel-marin/Hospital_php_REST_API/blob/main/presentation_images/assistants.png)
 
 ## How to use
@@ -101,7 +101,7 @@ Relatiile sunt:
 In tabelul users exista coloana employee_type: se definesc 3 tipuri de useri: **GM, Doctors, Assistants**  
 login/logout: Daca nu esti logat (esti guest), atunci vei ramane blocat la meniul de logare. Pentru ca nu exista butonul register,  
 
-#### fig 2. Functionalitate: Pagina de login
+#### fig 3. Functionalitate: Pagina de login
 ![alt text](https://github.com/florin-daniel-marin/Hospital_php_REST_API/blob/main/presentation_images/login.png)
 
 ### Creearea unui cont
@@ -127,7 +127,7 @@ Este implementat un buton de Add Users pentru a creea utilizatori
 Add, Refresh, Edit, Delete pentru fiecare modificarea fiecarui model in parte  
 Este implementata si o bara de search functionala si un sistem de cautare dupa tag-uri (nume, prenume, descriere).  
 
-#### fig 6. Functionalitate: Cauta după name sau tag
+#### fig 4. Functionalitate: Cauta după name sau tag
 ![alt text](https://github.com/florin-daniel-marin/Hospital_php_REST_API/blob/main/presentation_images/searchtag.png)
 
 ### Functionalitati atinse
@@ -138,10 +138,10 @@ Este implementata si o bara de search functionala si un sistem de cautare dupa t
 - Treatment manager done by Doctor or GM
 - Treatment recommended by doctor to patient done by Doctor  
 
-#### fig 4. Functionalitate: Adaugă tratament (rețetă) în baza de date
+#### fig 5. Functionalitate: Adaugă tratament (rețetă) în baza de date
 ![alt text](https://github.com/florin-daniel-marin/Hospital_php_REST_API/blob/main/presentation_images/addtreatment.png)
 
-#### fig 5. Functionalitate: Editează personalul spitalului, pacient sau rețetă
+#### fig 6. Functionalitate: Editează personalul spitalului, pacient sau rețetă
 ![alt text](https://github.com/florin-daniel-marin/Hospital_php_REST_API/blob/main/presentation_images/editpacient.png)
 
 ## Pe viitor..
