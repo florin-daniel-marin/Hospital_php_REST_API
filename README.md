@@ -3,6 +3,23 @@
 Restful Hospital API realizat cu framework-ul Laravel 9.0.
 Acesta include tabelele in Mysql: **Doctors, Patients, Assistants si Treatments si Users**
 
+#### fig 1. Functionalitate: Pagina Doctori
+![alt text](https://github.com/florin-daniel-marin/Hospital_php_REST_API/blob/main/presentation_images/doctors.png)
+
+#### fig 2. Functionalitate: Pagina de login
+![alt text](https://github.com/florin-daniel-marin/Hospital_php_REST_API/blob/main/presentation_images/login.png)
+
+#### fig 3. Functionalitate: Pagna Asistenți
+![alt text](https://github.com/florin-daniel-marin/Hospital_php_REST_API/blob/main/presentation_images/assistants.png)
+
+#### fig 4. Functionalitate: Adaugă tratament (rețetă) în baza de date
+![alt text](https://github.com/florin-daniel-marin/Hospital_php_REST_API/blob/main/presentation_images/addtreatment.png)
+
+#### fig 5. Functionalitate: Editează personalul spitalului, pacient sau rețetă
+![alt text](https://github.com/florin-daniel-marin/Hospital_php_REST_API/blob/main/presentation_images/editpacient.png)
+
+#### fig 6. Functionalitate: Cauta după name sau tag
+![alt text](https://github.com/florin-daniel-marin/Hospital_php_REST_API/blob/main/presentation_images/searchtag.png)
 ## How to use
 **Dependencies**  
 1. Install **XAMPP with PHP version 8.1.x** from https://www.apachefriends.org/download.html 
@@ -94,7 +111,7 @@ Relatiile sunt:
 ## - Users  
 In tabelul users exista coloana employee_type: se definesc 3 tipuri de useri: **GM, Doctors, Assistants**  
 login/logout: Daca nu esti logat (esti guest), atunci vei ramane blocat la meniul de logare. Pentru ca nu exista butonul register,  
-
+![alt text](https://github.com/florin-daniel-marin/Hospital_php_REST_API/blob/main/presentation_images/doctors.png)
 ### Creearea unui cont
 Pentru ca nu exista butonul register, trebuie sters din **routes/web.php**:  
 <sub>
